@@ -1,13 +1,15 @@
 var num = 100, tag, len = 10, deg = 90;
 
 function init() {
+  var h = window.innerHeight;
+  var w =  window.innerWidth;
+  height(h, w)
   //save()
-  translate(250, 250)
-  tag = new Tag();
+  translate(h/2, w/2)
 }
 
 function update() {
-  color("black")
+  color("#344E41")
   if (num % 2 == 0 && num != 4) {
     num = num / 2
     //save()
