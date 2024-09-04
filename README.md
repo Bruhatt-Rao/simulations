@@ -1,2 +1,2 @@
 # Simulations
-A collection of all the html canvas simulations I've made
+A collection of simulations made using the gulf canvas wrapper
