@@ -1,4 +1,4 @@
-var num = 100, tag, len = 10, deg = 90;
+var num = 100, tag, len = 10, deg = 45;
 
 function init() {
   var h = window.innerHeight;
