@@ -19,7 +19,6 @@ function getMousePos(event) {
   let rect = area.canvas.getBoundingClientRect();
   x = event.clientX - rect.left;
   y = event.clientY - rect.top;
-  console.log("Coordinate x: " + x, "Coordinate y: " + y);
 }
 
 function rx() {
@@ -43,7 +42,7 @@ var area = {
     this.canvas.height = window.innerHeight;
     this.context = this.canvas.getContext("2d");
     document.body.insertBefore(this.canvas, document.body.childNodes[0]);
-    this.interval = setInterval(updateGameArea, 40);
+    this.interval = setInterval(updateGameArea, 20);
   },
   clear: function () {
     this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
