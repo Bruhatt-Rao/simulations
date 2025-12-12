@@ -1,4 +1,4 @@
-var scale = 20,
+var scale = 5,
   h,
   w,
   grid = [],
